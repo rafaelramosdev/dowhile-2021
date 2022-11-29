@@ -8,8 +8,6 @@
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000" alt="License">
 </p>
 
-<br>
-
 ## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -56,6 +54,9 @@ $ cd server
 # Instala as dependências
 $ yarn
 
+# Cria as migrations e sincroniza com seu esquema de banco de dados
+$ yarn prisma migrate dev
+
 # Inicia o server
 $ yarn dev
 
@@ -83,6 +84,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Fique ligado nas próximas edições do [Next Level Week](https://nextlevelweek.com/), é um evento gratuito que você não pode deixar passar, recomendo muito!
-
-Feito by [Rafael Ramos](https://rafaelramos.dev/) 🙋🏻‍♂️
+Made by [Rafael Ramos](https://rafaelramos.dev/)
