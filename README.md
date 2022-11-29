@@ -74,7 +74,7 @@ $ yarn
 # Inicia o website
 $ yarn dev
 
-# O website estará disponível no seu navegador pelo endereço [`http://localhost:3000`](http://localhost:3000).
+# O website estará disponível no seu navegador pelo endereço http://localhost:3000.
 ```
 
 ## 📄 Licença
