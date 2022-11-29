@@ -8,9 +8,9 @@
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=000000&labelColor=000000" alt="License">
 </p>
 
-## 🧪 Tecnologias
+## Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - [React](https://reactjs.org)
 - [Node.js](https://nodejs.org/en/)
@@ -18,69 +18,69 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Prisma](https://www.prisma.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 💻 Projeto
+## Project
 
-É uma plataforma completa que será utilizada durante o DoWhile2021.
+It is a complete platform that will be used during DoWhile2021.
 
-Foi desenvolvida com o objetivo de as pessoas poderem compartilhar suas expectativas sobre o DoWhile.
+It was developed with the aim of people being able to share their expectations about DoWhile.
 
-Este é um projeto desenvolvido durante a **[Next Level Week #07](https://nextlevelweek.com/)**, apresentada nos dias 18 a 22 de Outubro de 2021.
+This is a project developed during Next Level Week #07, presented from October 18th to 22nd, 2021.
 
-## 🔖 Layout
+## Layout
 
-Você pode visualizar o layout do projeto através do link abaixo:
+You can view the project layout through the link below:
 
 - [Layout](https://www.figma.com/community/file/1031699316177416916)
 
-É necessário ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+A Figma account is required to access it.
 
-## 🚀 Como executar
+## How to execute
 
-Clone o projeto e acesse a pasta do mesmo.
+Clone the project and access its folder.
 
 ```bash
 $ git clone https://github.com/rafaelramosdev/dowhile-2021
 $ cd dowhile
 ```
 
-A aplicação é dividida em duas partes: web e server, a versão web precisa que o server esteja sendo executado para funcionar. Para iniciar a aplicação, siga os passos abaixo:
+The application is divided into two parts: web and server, the web version needs the server to be running to work. To launch the application, follow the steps below:
 
-## Rodando a versão server
+## Server version
 
 ```bash
-# Entra na pasta da versão server
+# Enter the server version folder
 $ cd server
 
-# Instala as dependências
+# Install the dependencies
 $ yarn
 
-# Cria as migrations e sincroniza com seu esquema de banco de dados
+# Create the migrations and sync with your database schema
 $ yarn prisma migrate dev
 
-# Inicia o server
+# Start the server
 $ yarn dev
 
-# O servidor estará ouvindo a porta 4000 e estará disponível no endereço http://localhost:4000.
+# The server will be listening on port 4000 and will be available at address http://localhost:4000
 ```
 
-## Rodando a versão web
+## Web version
 
 ```bash
-# Entra na pasta da versão web
+# Enter the web version folder
 $ cd web
 
-# Instala as dependências
+# Install the dependencies
 $ yarn
 
-# Inicia o website
+# Start the website
 $ yarn dev
 
-# O website estará disponível no seu navegador pelo endereço http://localhost:3000.
+# The website will be available in your browser at http://localhost:3000
 ```
 
-## 📄 Licença
+## License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
